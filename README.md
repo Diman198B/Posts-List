@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# "Posts-List"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description:
+"Posts-List" - Single Page Application on React.js.
+Implemented:
+1. Authorization with saving in LocalStorage (because there is no Backend)
+2. Asynchronous loading of posts from jsonplaceholder to axios
+3. Pagination
+4. Custom mini UI-KIT
+5. Create + add a new post
+6. Sorting
+7. Search + filtering
+8. Post detail page, loading from jsonplaceholder to axios
+9. Navigation with React-Router v.5.2
+10. ModuleCSS styles
+11. Animation on React-Transition-Group
+12. DEPLOY can be viewed locally in the GithubPages repository.
 
-## Available Scripts
+## Run:
+1. Save or clone the repository on your PC.
+```
+git clone https://github.com/Diman198B/Posts-List.git
+```
+[Learn more](https://git-scm.com/book/ru/v2/Приложение-C%3A-Команды-Git-Клонирование-и-создание-репозиториев)
 
-In the project directory, you can run:
+2. Install Node.js and npm on your PC (If not installed).
+```
+3. npm install - Install required packages.
+4. npm run start - Get compiled project files for "Developer" mode,
+                   and tracking changes on the local server localhost:3000.
+   npm run build - Get compiled project files for production mode.
+```
 
-### `npm start`
+## Troubleshooting:
+The application is designed for devices with a screen width of 968px.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Author:
+Dmitry Barabash
+ 
+## Used technologies:
+React, Axios, React-Router, React-Transition-Group, CSS, Git, deploy-Githubpages. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# "Список постов"
 
-### `npm run build`
+## Описание:
+"Список постов" - Одностраничное приложение на React.js.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Реализовано:
+1. Авторизация с сохранением в LocalStorage (заглушка. т.к. нет Backend)
+2. Асинхронная подгрузка постов с jsonplaceholder на axios
+3. Пагинация
+4. Кастомный мини UI-KIT
+5. Создание + добавление нового поста
+6. Сортировка
+7. Поиск + фильтрация
+8. Детальная страница поста, подгрузка с jsonplaceholder на axios
+9. Постраничная навигация на React-Router v.5.2
+10. Стили moduleCSS
+11. Анимация на React-Transition-Group
+12. DEPLOY можно посмотреть локально в репозитории GithubPages.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Запуск: 
+1. Сохраните или клонируйте репозиторий себе на ПК.  
+```
+git clone https://github.com/Diman198B/Posts-List.git
+```
+[Подробнее](https://git-scm.com/book/ru/v2/Приложение-C%3A-Команды-Git-Клонирование-и-создание-репозиториев)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Установите себе на ПК Node.js и npm (Если не установлены).
+```
+3. npm install - Установка необходимых пакетов.
+4. npm run start - Получение скомпилированных файлов проекта для режима "Разработчика",
+                   и отслеживание изменений на локальном сервере localhost:3000.
+   npm run build - Получение скомпилированных файлов проекта для режима "Продакшн".
+```
 
-### `npm run eject`
+## Диагностика:
+Приложение разработано под устройства с шириной экрана от 968px. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Автор:
+Дмитрий Барабаш
+ 
+## Используемые технологии:
+React, Axios, React-Router, React-Transition-Group, CSS, Git, deploy-Githubpages. 
